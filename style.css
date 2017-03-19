@@ -1,5 +1,6 @@
 h1 	{
 	color: #000000;	
+	font-family: 'Ubuntu Condensed', sans-serif;
 	font-size: 15px;
 	padding: 30px;
 	text-align: center;
@@ -9,6 +10,7 @@ h1 	{
  p	{	
 	color: #000000;
 	font-size: 12px;
+	font-family: 'Ubuntu Condensed', sans-serif;
 	text-align: center;
 	margin: 20px;
 	padding: 50px;
@@ -18,6 +20,7 @@ h1 	{
 h2 	{
 	text-align: center;
 	font-size: 12px;
+	font-family: 'Ubuntu Condensed', sans-serif;
 	margin: 0px;
 	padding-top: 30px;
 }
@@ -51,6 +54,10 @@ div	{
 	padding: 0px;
 }
 
+.underrubrik {
+
+}
+
 .Beamonpeople	{
 	background-color: #ffffff;
 	margin-top: -20px;
@@ -76,6 +83,9 @@ div	{
 	margin: 0px;
 	padding-bottom: 10px;
 
+}
+.arbetsbeskrivning	{
+	margin: 0px;
 }
 @media only screen and (min-width: 760px)	{
 	.profil	{
