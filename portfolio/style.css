@@ -1,16 +1,14 @@
-
-
 h1 	{
 	color: #000000;	
-	font-size: 25px;
-	padding: 50px;
+	font-size: 15px;
+	padding: 30px;
 	text-align: center;
 	margin: 0px;
 }
 
  p	{	
 	color: #000000;
-	font-size: 15px;
+	font-size: 12px;
 	text-align: center;
 	margin: 20px;
 	padding: 50px;
@@ -19,21 +17,21 @@ h1 	{
 
 h2 	{
 	text-align: center;
-	font-size: 15px;
+	font-size: 12px;
 	margin: 0px;
 	padding-top: 30px;
 }
 	.responsive-image {
-    	border-radius: 50%;
+    	border-radius: 60%;
     	display: block;
     	margin-left: auto;
     	margin-right: auto;
-    	width: 200px;
+    	width: 120px;
     	padding-top: 30px; 
 }
 	.profil {
 		border-radius: 50%;
-		width: 200px;
+		width: 120px;
 		margin-left: auto;
 		margin-right: auto;
 		display: block;
@@ -44,6 +42,7 @@ h2 	{
 .intro	{
 	background-color: #D3D3D3;
 	margin: 0px;
+	padding-bottom: 40px;
 }
 
 div	{
@@ -54,15 +53,60 @@ div	{
 
 .Beamonpeople	{
 	background-color: #ffffff;
-	margin: 0px;
+	margin-top: -20px;
+	margin-bottom: -20px;
 }
-
 .Starbucks	{
 	background-color: #696969;
+	padding-top: 30px;
 }
 
 .tiogruppen	{
 	background-color: #778899;
+	padding-top: 30px;
+}
+.bottom	{
+	background-color: #696969;
+	margin: 0px;
+}
+.tilltoppen 	{
+	text-align: center;
+	background-color: #696969;
+	margin: 0px;
+	padding-bottom: 10px;
+
+}
+@media only screen and (min-width: 760px)	{
+	.profil	{
+		width: 240px;
+	}
+	.main-heading	{
+		font-size: 18px;
+	}
+	.responsive-image	{
+		width: 200px;
+	}
+	.intro	{
+	  font-size: 16px;
+	}
+	.underrubrik	{
+		font-size: 18px;
+	}
+	.Beamonpeople	{
+		font-size: 16px;
+	}
+	.Starbucks	{
+		font-size: 16px;
+	}
+	.tiogruppen	{
+		font-size: 30px;
+	}
+	.arbetsbeskrivning	{
+		font-size: 16px;
+	}
+	.bottom	{
+		font-size: 16px;
+	}
 }
 
 
